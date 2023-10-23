@@ -14,7 +14,7 @@ export const EVMOS_DECIMALS = parseInt(
 export const EVMOS_COSMOS_EXPLORER =
   process.env.NEXT_PUBLIC_EVMOS_COSMOS_EXPLORER ?? "https://evtscan.com/";
 export const EVMOS_ETH_CHAIN_ID =
-  process.env.NEXT_PUBLIC_EVMOS_ETH_CHAIN_ID ?? "0x2329";
+  process.env.NEXT_PUBLIC_EVMOS_ETH_CHAIN_ID ?? "0x22B0";
 export const EVMOS_CHAIN = {
   chainId: parseInt(process.env.NEXT_PUBLIC_CHAIN_ID ?? "8848"),
   cosmosChainId: process.env.NEXT_PUBLIC_COSMOS_CHAIN_ID ?? "evt_8848-1",
