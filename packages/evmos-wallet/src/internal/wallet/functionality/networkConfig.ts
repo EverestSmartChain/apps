@@ -4,7 +4,7 @@
 export const EVMOS_RPC_URL =
   process.env.NEXT_PUBLIC_EVMOS_RPC_URL || "http://158.69.35.30:26657";
 export const EVMOS_GRPC_URL =
-  process.env.NEXT_PUBLIC_EVMOS_GRPC_URL || "http://158.69.35.30:26657";
+  process.env.NEXT_PUBLIC_EVMOS_GRPC_URL || "http://158.69.35.30:9090";
 export const EVMOS_CHAIN_NAME =
   process.env.NEXT_PUBLIC_EVMOS_CHAIN_NAME ?? "Everest Smart Chain";
 export const EVMOS_SYMBOL = process.env.NEXT_PUBLIC_EVMOS_SYMBOL ?? "EVT";
